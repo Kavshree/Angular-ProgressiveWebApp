@@ -1,0 +1,13 @@
+<div>
+  
+  <h1 [ngClass]= "networkStatus == 'offline' ? 'red' : 'green' "> {{networkStatus}}</h1>
+  <h1>To Do</h1>
+</div>
+	<ul>
+		<li *ngFor="let t of toDo">
+      <h3>{{t.title}}</h3>
+      <p>{{t.completed}}</p>
+    </li>
+	</ul>
+
+<router-outlet></router-outlet>
