@@ -2,7 +2,7 @@
 
 Steps: 
 1) Create new angular app
-ng new angular-pwa
+ng new angular/pwa
 
 2) Get inside your application folder and change Angular app into Progressive Web App (PWA) by running:
 ng add @angula/pwa
